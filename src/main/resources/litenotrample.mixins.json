@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.fancraft.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "FarmProtect"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
