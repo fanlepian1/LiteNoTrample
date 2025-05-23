@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "litenotrample",
+  "version": "${version}",
+  "name": "LiteNoTrample",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/fanlepian1/LiteNoTrample"
+  },
+  "icon": "assets/fancraft/icon.png",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cn.fancraft.LiteNoTrample"
+    ]
+  },
+  "mixins": [
+    "litenotrample.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
